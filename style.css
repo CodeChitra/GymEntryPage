@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("dark-1839088_1920.jpg");
+  color: white;
+}
+.header {
+  /* border: 2px solid red; */
+}
+.left {
+  /* border: 2px solid green; */
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin: 5px 35px;
+  background-image: url("logo/logo.png");
+  background-size: 55px;
+}
+.mid {
+  /* border: 2px solid blue; */
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+}
+.right {
+  /* border: 2px solid brown; */
+  float: right;
+  position: relative;
+  top: -70px;
+  right: 35px;
+}
+.right input {
+  margin: 4px;
+  padding: 3px;
+}
+
+.navbar {
+  padding: 4px;
+}
+.navbar li {
+  display: inline;
+  padding: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+.form {
+  border: 1px solid grey;
+  width: 40%;
+  padding: 10px;
+  margin-top: 125px;
+  margin-left: 50px;
+}
+.form h3 {
+  /* border: 2px solid green; */
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+.form div input {
+  margin: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px;
+}
